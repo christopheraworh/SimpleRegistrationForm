@@ -1,0 +1,67 @@
+body{
+    background-color: teal;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: auto;
+    width: 60%;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 6px rgba(0, 0, 0, 0.7);
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+  width: 200PX;
+  height: 200PX; 
+  box-shadow: 20px 20px 20px 6px rgba(0, 0, 0, 0.7);
+
+}
+
+
+input[type='text'],
+input[type='password']{
+    width:100%;
+    padding: 8px;
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+    border: none;
+    background-color: whitesmoke;
+
+}
+
+
+input[type='text']:focus,
+input[type='password']:focus {
+    background-color: greenyellow;
+    color: red;
+    outline: none;
+
+}
+
+.registrationbtn{
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor:pointer;
+    width: 100px;
+    margin: auto;
+    padding: 12px;
+    opacity: 0.9;
+    box-shadow: 20px 20px 20px 6px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.registrationbtn:hover{
+    color: antiquewhite;
+    opacity: 0.5;
+}
+
