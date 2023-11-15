@@ -1,2 +1,2 @@
 # SimpleRegistrationForm
-A Simple Reistration Form created using HTML and CSS
+A Simple registration Form created using HTML and CSS
